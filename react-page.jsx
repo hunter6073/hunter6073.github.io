@@ -56,7 +56,7 @@ class main_body extends React.Component {
                                     </h3>
                                     <p>
                                         NYU Masters Student expected to graduate in May 2020!<br />
-                                        Overall GPA: 3.7
+                                        Overall GPA: 3.55
                                     </p>
                                     <h3>
                                         Skillset:
