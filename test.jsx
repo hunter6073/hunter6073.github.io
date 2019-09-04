@@ -116,11 +116,23 @@ class main_body extends React.Component {
 
                         <h2>Work Experience:</h2>
 
-
-
-                        <h4 className="mt-4"> Software Developer, Head of IT Department, Beijing, China </h4>
+                         <h4 className="mt-4"> Big Data Instructor, New York, United States </h4>
                         <h5 className="clearfix w-75">
-                            <span className="float-left">IT Department, YiMei Corporation</span>
+                            <span className="float-left">High Performance Computing team, NYU IT Research and Technology</span>
+                            <span className="float-right">July 2019 – current</span>
+                        </h5>
+                        <p className="w-75 mt-3">
+                           - Creating, updating, teaching big data programming related tutorials and troubleshooting user questions<br/>
+                           - Research and scripting for clusters, openstack and openshift vms<br/>
+                           - Working with research personnel to create web application integrated into clusters’ back end<br/>
+                           - Developing benchmark testing programs for clusters and implementing them to calculate clusters performance<br/>
+                           - Writing documentation for team projects and performing backups and restore on documentation system <br/>
+
+                        </p>
+                        
+                        <h4 className="mt-4"> Software Developer, Head of Development Team, Xi'an, China </h4>
+                        <h5 className="clearfix w-75">
+                            <span className="float-left">IT Department, Tarena.inc</span>
                             <span className="float-right">Sep 2017 – Aug 2018</span>
                         </h5>
                         <p className="w-75 mt-3">
@@ -166,7 +178,7 @@ class main_body extends React.Component {
                                     <span className="badge badge-primary ml-2">MVC designing</span>
                                     <span className="badge badge-primary ml-2">Project Management</span>
                                     <span className="badge badge-primary ml-2">System Testing</span>
-                                    <span className="badge badge-primary ml-2">Github</span>
+                                    <span className="badge badge-primary ml-2">Git</span>
                                 </p>
                             </div>
 
@@ -180,7 +192,6 @@ class main_body extends React.Component {
                                     <span className="badge badge-primary ml-2">C#/.Net</span>
                                     <span className="badge badge-primary ml-2">Linux Shell</span>
                                     <span className="badge badge-primary ml-2">Android</span>
-                                    <span className="badge badge-primary ml-2"></span>
                                     <span className="badge badge-primary ml-2">Java</span>
                                 </p>
                             </div>
@@ -194,6 +205,8 @@ class main_body extends React.Component {
                                     <span className="badge badge-primary ml-2">Ruby/Jekyll</span>
                                     <span className="badge badge-primary ml-2">Html/Dom/JavaScript</span>
                                     <span className="badge badge-primary ml-2">Bootstrap/CSS</span>
+                                    <span className="badge badge-primary ml-2">Webpack</span>
+                                    <span className="badge badge-primary ml-2">Material UI</span>
                                 </p>
                             </div>
 
@@ -209,6 +222,7 @@ class main_body extends React.Component {
                                     <span className="badge badge-primary ml-2">Struts</span>
                                     <span className="badge badge-primary ml-2">Hibernate</span>
                                     <span className="badge badge-primary ml-2">PHP</span>
+                                    <span className="badge badge-primary ml-2">Feathers</span>
                                 </p>
 
                             </div>
@@ -220,6 +234,9 @@ class main_body extends React.Component {
                                     <span className="badge badge-primary ml-2">Hadoop</span>
                                     <span className="badge badge-primary ml-2">Spark</span>
                                     <span className="badge badge-primary ml-2">MongoDB</span>
+                                    <span className="badge badge-primary ml-2">Impala</span>
+                                    <span className="badge badge-primary ml-2">Hive</span>
+                                    <span className="badge badge-primary ml-2">Storm</span>
                                 </p>
                             </div>
 
@@ -275,18 +292,6 @@ class main_body extends React.Component {
                             </div>
                         </a>
 
-                        <a href="http://easymayus.com/" className="mx-auto mt-4 project-display container border border-1 clearfix">
-                            <div className="row">
-                                <div className="col-sm-6 pl-0"><img src="./assets/easymayus_web.png" className="projectimg" /></div>
-                                <div className="col-sm-6 pl-0">
-                                    <h4 className="text-center proj-textbox">Easymay Website</h4>
-                                    <p className="pl-2 mt-4">
-                                        Description:Developed, maintained and hosted a Jekyll website <br />
-                                    </p>
-
-                                </div>
-                            </div>
-                        </a>
 
                         <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
