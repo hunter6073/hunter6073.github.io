@@ -108,7 +108,7 @@ class main_body extends React.Component {
                         <h2>Education:</h2>
                         <p className="w-75 mt-4">
                             NYU Masters Student expected to graduate in May 2020!<br />
-                            Overall GPA: 3.7 <br />
+                            Overall GPA: 3.55 <br />
                             Coursework: Design and Analysis of Algorithms, Software Engineering, Database Systems, 
                             Computer Networking, Artificial Intelligence, Big Data, Cyber Security, Machine Learning, 
                             Interactive Computer Graphics
