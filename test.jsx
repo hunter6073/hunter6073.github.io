@@ -47,7 +47,7 @@ class main_body extends React.Component {
                                     <img className="card-img-top round-picture mx-auto" src="./assets/headshot.jpg" alt="Card image" />
                                     <div className="card-body">
 
-                                        <h4 className="card-title text-center">Hechun Wang</h4>
+                                        <h4 className="card-title text-center">Hechun Wang(Ted Wong)</h4>
                                         <p id="aboutme" className="card-text text-red">
 
                                             Looking for a top grade programmer?<br />
