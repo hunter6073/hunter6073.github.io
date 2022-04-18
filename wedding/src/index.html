@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <meta name="title" content="Wedding Quick Quiz">
+    <meta name="description" content="Wedding Quick Quiz">
+    <meta http-equiv="Content-Type" content="text/html;" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta charset="UTF-8">
+
+    <title>Wedding Quick Quiz</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/jquery.mmenu.all.css" rel="stylesheet" />
+    <link href="css/background-style.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.hammer.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mmenu.min.all.js"></script>
+    <script type="text/javascript" src="js/quiz.js"></script>
+    <script type="text/javascript" src="js/wechat.js"></script>
+    <script type="text/javascript" src="js/wxm-core.js"></script>
+
+</head>
+<!-- <button class="btn" onclick="openLockDown()">点击显示遮罩层模态框</button> -->
+<!-- <div id='overlay'>
+    <div class="overlay-modal">
+        <span>我是自定义模态框</span>
+        <button type="button" class="btn" onclick="closeLuckDown()">点击隐藏遮罩层模态框</button>
+    </div>
+</div> -->
+<body id="quiz" class="quiz">
+    <div class="wechat-thumb">
+        <img src="asserts/wechat-thumb.JPG" />
+    </div>
+
+    <div id="content">
+        <div id="header_bar">
+        </div>
+        <!-- E header_bar -->
+
+
+        <div class="container">
+            <div id="header" class="text-center">
+
+                <div class="container">
+                    <div class="text-center header">
+                        <hr style="border:0;background-color:#e6bd2e;height:4px;" width="90%">
+                        <h1 style="color:#000000; " class="bold">
+                            Wedding Quick Quiz
+                        </h1>
+                        <hr style="border:0;background-color:#80aa4a;height:4px;" width="90%">
+                    </div>
+
+                    <!-- E header -->
+                    <div id="bd" class="panel">
+                        <div id="panel1" class="panel-body">
+                            <form action="#">
+                                <div
+                                    style="position: relative; top: -35px;height:50px; color:#000000; background:#c6cfc5;MARGIN-RIGHT: auto; MARGIN-LEFT: auto; width:50%;">
+                                    <h2 style="position:relative;top:25%;translateX(-50%);translateY(-50%)"> 规则 </h2>
+                                </div>
+                                <div>
+                                    <label for="" class="sr-only">前言</label>
+                                </div>
+                                <p style="position: relative; top: -10px;">
+                                    1、答对全部十道题的前6名现场宾客可以获得主办方准备的精美小礼品一份；
+                                    <br>
+                                    2、回答失败会锁定当前页面，请谨慎作答；
+                                    <br>
+                                    3、现场工作人员对规则有最终解释权。
+                                </p>
+                                <div class="buttons">
+                                    <a href="#result" class="btn btn-lg btn-success"
+                                        style="background:#f0d782; width: 50%" onclick="return start(0);">
+                                        <strong style="color:#404243;font-size: 22px;">我明白了</strong></a>
+                                </div>
+                            </form>
+                        </div>
+
+
+
+                        <div id="panel_quiz" class="panel-body js_answer" style="display:none;  background:#fbfcf7">
+                            <form style="background:#fbfcf7;" action="#" method="POST">
+                                <a name="result" href="javascript:void(0)"></a>
+
+                                <h3 id="quiz_desc" style="color:#000;"> 地球是⚪的？ </h3>
+                                <!-- <p class="middle-box">社会地位偏低的男性可以从二奶处找到一家之主的感觉，从而提升自己的阶层体验； -->
+                                <!-- 经济社会地位本来就偏高的男性可以因为有二奶而看上去富有男性魅力，更能划分阶层界限。 </p> -->
+
+                                <ul id="quiz_list" class="list-group  js_group">
+                                    <li class="list-group-item" onclick="return toggle(this);">
+                                        <input name="g" type="radio" class="" value="1A" />
+                                        A.真
+                                    </li>
+                                    <li class="list-group-item" onclick="return toggle(this);">
+                                        <input name="g" type="radio" class="" value="0B" />
+                                        B.假
+                                    </li>
+                                    <li class="list-group-item" onclick="return toggle(this);">
+                                        <input name="g" type="radio" class="" value="0C" />
+                                        C.假
+                                    </li>
+                                    <li class="list-group-item" onclick="return toggle(this);">
+                                        <input name="g" type="radio" class="" value="0D" />
+                                        D.假
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+
+                        <div id="panel_explain" class="panel-body js_result" data-id="10" style="display: none;">
+                            <h1 id="explain_head" class="bold">
+                                问题#1</h1>
+                            <hr>
+                            <dl>
+                                <dt id="explain_desc">解释文本</dt>
+                            </dl>
+                            <button id="btn_next" href="javascript:void(0)" onclick="javascript:next();" class="result-btn">原来如此...</button>
+                            <button id="btn_revert" href="javascript:void(0)" onclick="javascript:revert();" class="result-btn">重新答题</button>
+                            <button id="btn_lock" href="javascript:void(0)" onclick="javascript:void(0);" class="result-btn">请等待10秒</button>
+                        </div>
+
+                        <div id="panel_result" class="panel-body js_result" data-id="10" style="display: none;">
+
+                            <h1 class="bold">
+                                恭喜您完成答题，请迅速上台凭借此页面领奖~</h1>
+                            <hr>
+                            <dl>
+                                <dt>礼品数量有限，拼本页面凭证先到先得.</dt>
+                            </dl>
+                        </div>
+                        <!-- E bd -->
+                    </div>
+                    <!-- E container -->
+                    <input type="hidden" name="totalsc" id="totalsc" value="0" />
+
+                </div>
+
+                <div id="mcover" onclick="document.getElementById('mcover').style.display='';" style="display: none;">
+                    <img src="asserts/guide.png">
+                </div>
+            </div>
+        </div>
+</body>
+<!-- <script>
+    var overlay = document.getElementById("overlay");
+    function openLockDown() {
+        overlay.style.display = "block";
+        // $('#overlay').show();
+    }
+    function closeLuckDown() {
+        overlay.style.display = "none";
+        // $('#overlay').hide();
+    }
+</script> -->
+</html>
