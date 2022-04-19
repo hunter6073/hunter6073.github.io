@@ -108,6 +108,8 @@ var quizInfo = [
         explain: "新娘有些猎奇的口味，香菜味圣代永远滴神",
     },
 ];
+
+
 function isQuizDone() {
     return quizIdx >= quizInfo.length;
 }
@@ -172,6 +174,7 @@ function explain(id, isAnsCorrect) {
     var explain_desc = "回答错误，少侠请重新来过";
     if(isAnsCorrect){
         explain_desc = quizInfo[id].explain;
+        //TODO 更改锁定时间
         lockDown(function(){
             $("#btn_next").show();
             $("#btn_revert").hide();
