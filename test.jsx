@@ -83,15 +83,15 @@ class main_body extends React.Component {
                 {/***************************************background intro************************************/}
                 <div className="container-fluid pt-5 pb-5" id="background">
                     <div className="mx-auto w-75">
-                        <h1> About:</h1>
-                        <h2> My background</h2>
+                        <h1> About me:</h1>
                         <p className="w-75 mt-4">
-                            Masters student at NYU Tandon School of Engineering.
-                                I am experienced in software/hardware programming, game design, big data processing
-                                and project management with background in machine learning, AI and cyber security.<br/>
-                            I enjoy challenges and working with new technologies. There is always something new to learn!<br /><br/>
+                            Hi, my name is Ted and I am a 4-year senior engineer/team lead currently at Tencent. 
+                            I have been working for tencent games since 2020, mostly majoring in interactive ad 
+                            campaigns and information broadcasting. My work have contributed in over a hundred 
+                            billion views and multi-billion clicks for games such as naruto mobile, 
+                            arena breakout mobile and arena breakout infinite. Keep reading to learn more about me!<br /><br/>
+                            
                             ps: I also speak 3 languages:<br/>
-
                             Hello world!<br />
                             你好世界！<br />
                             ハーロー　ワールド! <br/>
