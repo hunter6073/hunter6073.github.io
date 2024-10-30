@@ -238,105 +238,49 @@ class main_body extends React.Component {
                     <div className="mx-auto w-75">
                         <h1>My Projects:</h1>
 
-                        <a href="https://github.com/hunter6073/Blitz_mobile" className="mx-auto mt-5 project-display container border border-1 clearfix">
+                        <a href="" className="mx-auto mt-5 project-display container border border-1 clearfix">
                             <div className="row">
-                                <div className="col-sm-6 pl-0"><img src="./assets/blitz.png" className="projectimg" /></div>
+                                <div className="col-sm-6 pl-0"><img src="./assets/OpenScreen.jpg" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
-                                    <h4 className="text-center proj-textbox">Game: Blitz</h4>
+                                    <h4 className="text-center proj-textbox">ArenaBreakout: Open screen ads</h4>
                                     <p className="pl-2 mt-4">
-                                        Description: AR multiplayer shooter game created using openGL lite for Android phones<br />
+                                        Description: In-game open screen ad system for Arena Breakout. This system serves to guide users to the latest and hottest events in game. It was developed in 2022 and has been stable online with over 500 million views now.<br />
                                     </p>
-
-                                </div>
-                            </div>
-                        </a>
-
-
-                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
-                            <div className="row">
-                                <div className="col-sm-6 pl-0"><img src="./assets/weka.png" className="projectimg" /></div>
-                                <div className="col-sm-6 pl-0">
-                                    <h4 className="text-center proj-textbox">Academic: Machine learning model</h4>
-                                    <p className="pl-2 mt-4">
-                                        Description: KNN model of Locust to rain relation using Weka<br />
-                                    </p>
-
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="https://github.com/hunter6073/album-forever" className="mx-auto mt-4 project-display container border border-1 clearfix">
-                            <div className="row">
-                                <div className="col-sm-6 pl-0"><img src="./assets/disk_distribution.png" className="projectimg" /></div>
-                                <div className="col-sm-6 pl-0">
-                                    <h4 className="text-center proj-textbox">Website:Albums Forever</h4>
-                                    <p className="pl-2 mt-4">
-                                        Description: An online album retail website made with JavaEE MVC<br />
-                                    </p>
-
                                 </div>
                             </div>
                         </a>
 
                         <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
-                                <div className="col-sm-6 pl-0"><img src="./assets/test_grading_system.png" className="projectimg" /></div>
+                                <div className="col-sm-6 pl-0"><img src="./assets/Slideshow.png" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
-                                    <h4 className="text-center proj-textbox">Test Grading System</h4>
+                                    <h4 className="text-center proj-textbox">ArenaBreakout: Slideshow ads</h4>
                                     <p className="pl-2 mt-4">
-                                        Description: A distributed test grading software in linux system<br />
+                                        Description: In-game slideshow ad System for Arena Breakout. Part of the same ad system as the open screen ads.<br />
                                     </p>
-
                                 </div>
                             </div>
                         </a>
 
-                        <a href="https://github.com/hunter6073/kinect-roll-a-ball" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
-                                <div className="col-sm-6 pl-0"><img src="./assets/roll-a-ball.png" className="projectimg" /></div>
+                                <div className="col-sm-6 pl-0"><img src="./assets/Poster.jpg" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
-                                    <h4 className="text-center proj-textbox">roll-a-ball Kinect.ver</h4>
+                                    <h4 className="text-center proj-textbox">ArenaBreakout:Poster ads</h4>
                                     <p className="pl-2 mt-4">
-                                        Description: A kinect version of the classic roll-a-ball game<br />
+                                        Description: In-game poster ad system for Arena Breakout. Part of the same ad system as the open scren ads.<br />
                                     </p>
-
                                 </div>
                             </div>
                         </a>
 
-                        <a href="http://www.thingiverse.com/thing:3753211" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
-                                <div className="col-sm-6 pl-0"><img src="./assets/IMG_0723.PNG" className="projectimg" /></div>
+                                <div className="col-sm-6 pl-0"><img src="./assets/OfficialAbiSite.png" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
-                                    <h4 className="text-center proj-textbox">ultramarines sigil</h4>
+                                    <h4 className="text-center proj-textbox">Arena Breakout Inifinite: official site</h4>
                                     <p className="pl-2 mt-4">
-                                        Description: 3d print model of an ultramarine sigil made with 3ds max <br />
-                                    </p>
-
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="https://github.com/hunter6073/wallpaper-checklist" className="mx-auto mt-4 project-display container border border-1 clearfix">
-                            <div className="row">
-                                <div className="col-sm-6 pl-0"><img src="./assets/checklist.png" className="projectimg" /></div>
-                                <div className="col-sm-6 pl-0">
-                                    <h4 className="text-center proj-textbox">Checklist wallpaper</h4>
-                                    <p className="pl-2 mt-4">
-                                        Description:  a dynamic wallpaper built in unity for wallpaper engine <br />
-                                    </p>
-
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="https://github.com/hunter6073/opengl-sphere-animation" className="mx-auto mt-4 project-display container border border-1 clearfix">
-                            <div className="row">
-                                <div className="col-sm-6 pl-0"><img src="./assets/icg.png" className="projectimg" /></div>
-                                <div className="col-sm-6 pl-0">
-                                    <h4 className="text-center proj-textbox">Computer graphics course assignment</h4>
-                                    <p className="pl-2 mt-4">
-                                        Description: Computer Graphics course assignment to create 3d interactive models using OpenGL <br />
+                                        Description: Performed server-side programming for Arena Breakout Inifinite's official site<br />
                                     </p>
 
                                 </div>
@@ -345,26 +289,76 @@ class main_body extends React.Component {
 
                         <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
-                                <div className="col-sm-6 pl-0"><img src="./assets/underconstruction.png" className="projectimg" /></div>
+                                <div className="col-sm-6 pl-0"><img src="./assets/MiniApp.jpg" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
-                                    <h4 className="text-center proj-textbox">Security Authentication API</h4>
+                                    <h4 className="text-center proj-textbox">Arena Breakout: MiniApp</h4>
                                     <p className="pl-2 mt-4">
-                                        Description: A security authentication system with interface for software(dll) and websites(API) used for login identification before accessing an company account. <br />
+                                        Description: Structure designer for server-side programming and project manager leading a 5-man team on this project. This miniapp has now been made the official fan community for the game. <br />
                                     </p>
 
                                 </div>
                             </div>
                         </a>
 
-                        <a href="https://github.com/hunter6073/java-c-compiler" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
-                                <div className="col-sm-6 pl-0"><img src="./assets/underconstruction.png" className="projectimg" /></div>
+                                <div className="col-sm-6 pl-0"><img src="./assets/NarutoAnimeGiveAway.png" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
-                                    <h4 className="text-center proj-textbox">C compiler written in java</h4>
+                                    <h4 className="text-center proj-textbox">Naruto Mobile: Animation Giveaway</h4>
                                     <p className="pl-2 mt-4">
-                                        Description:  Course assignment to create a C compiler using java <br />
+                                        Description: In-game ad campaign designed to have users invite old and new friends into the game and reward them with free finish move animations. This campaign has been online since 2021 and reopens every other month. <br />
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                            <div className="row">
+                                <div className="col-sm-6 pl-0"><img src="./assets/NarutoMiniApp.jpg" className="projectimg" /></div>
+                                <div className="col-sm-6 pl-0">
+                                    <h4 className="text-center proj-textbox">Naruto Mobile: MiniApp</h4>
+                                    <p className="pl-2 mt-4">
+                                        Description: This project was designed as a off-game community for gamers to generate and share content. I individually handled the server-side programming and routine maintenance.<br />
                                     </p>
 
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                            <div className="row">
+                                <div className="col-sm-6 pl-0"><img src="./assets/TikTokDrops.jpg" className="projectimg" /></div>
+                                <div className="col-sm-6 pl-0">
+                                    <h4 className="text-center proj-textbox">ArenaBreakout: tik tok drops</h4>
+                                    <p className="pl-2 mt-4">
+                                        Description: collaborated with tik tok to launch a drops campaign. Performed server-side programming on this project.<br />
+                                    </p>
+
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                            <div className="row">
+                                <div className="col-sm-6 pl-0"><img src="./assets/MatchGuess.png" className="projectimg" /></div>
+                                <div className="col-sm-6 pl-0">
+                                    <h4 className="text-center proj-textbox">Arena Breakout: Guess the winner campaign</h4>
+                                    <p className="pl-2 mt-4">
+                                        Description: Event designed to have players bet on who the winner of a certain competition would be. The user with the highest score will be famously rewarded. Handled both client and server side.<br />
+                                    </p>
+
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                            <div className="row">
+                                <div className="col-sm-6 pl-0"><img src="./assets/LootAndShoot.png" className="projectimg" /></div>
+                                <div className="col-sm-6 pl-0">
+                                    <h4 className="text-center proj-textbox">Arena Breakout: Loot and Shoot competition ranking display</h4>
+                                    <p className="pl-2 mt-4">
+                                        Description: website to display the rankings of an ongoing streamer match. <br />
+                                    </p>
                                 </div>
                             </div>
                         </a>
