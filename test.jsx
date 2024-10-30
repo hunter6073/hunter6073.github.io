@@ -104,22 +104,24 @@ class main_body extends React.Component {
                 <div className="container-fluid pt-5 pb-5" id="education">
                     <div className="mx-auto w-75">
                         <h1> Education & Experience </h1>
-
-                        <h2>Education:</h2>
-                        <p className="w-75 mt-4">
-                            NYU Masters Student expected to graduate in May 2020!<br />
-                            Overall GPA: 3.55 <br />
-                            Coursework: Design and Analysis of Algorithms, Software Engineering, Database Systems, 
-                            Computer Networking, Artificial Intelligence, Big Data, Cyber Security, Machine Learning, 
-                            Interactive Computer Graphics
-                        </p>
-
+                        
                         <h2>Work Experience:</h2>
-
-                         <h4 className="mt-4"> Big Data Instructor, New York, United States </h4>
+                        <h4 className="mt-4"> Level 9 Senior engineer/team lead, Tencent, Shenzhen,China</h4>
+                        <h5 className="clearfix w-75">
+                            <span className="float-left">VASD programming team, Morefun studios  </span>
+                            <span className="float-right">July 2020 – current</span>
+                        </h5>
+                        <p className="w-75 mt-3">
+                           - Individually developed broadcasting systems for mobile games such as enter-game popups, slideshow notifications and posters in event centers.<br/>
+                             These broadcast ads have received over a hundred million views and have been stable online with a healthy rate over 99.9999%<br/>
+                           - Collaborated with tiktok in an ad campagin for arena breakout mobile. The project has been stable online since december 2023<br/>
+                            -- TODO: keep filling
+                        </p>
+                        
+                        <h4 className="mt-4"> Big Data Instructor, New York, United States </h4>
                         <h5 className="clearfix w-75">
                             <span className="float-left">High Performance Computing team, NYU IT Research and Technology</span>
-                            <span className="float-right">July 2019 – current</span>
+                            <span className="float-right">2019 – 2020</span>
                         </h5>
                         <p className="w-75 mt-3">
                            - Creating, updating, teaching big data programming related tutorials and troubleshooting user questions<br/>
@@ -127,37 +129,16 @@ class main_body extends React.Component {
                            - Working with research personnel to create web application integrated into clusters’ back end<br/>
                            - Developing benchmark testing programs for clusters and implementing them to calculate clusters performance<br/>
                            - Writing documentation for team projects and performing backups and restore on documentation system <br/>
+                        </p>
 
+                        <h2>Education:</h2>
+                        <p className="w-75 mt-4">
+                            NYU Masters Student in computer science<br />
+                            Coursework: Design and Analysis of Algorithms, Software Engineering, Database Systems, 
+                            Computer Networking, Artificial Intelligence, Big Data, Cyber Security, Machine Learning, 
+                            Interactive Computer Graphics
                         </p>
                         
-                        <h4 className="mt-4"> Software Developer, Head of Development Team, Xi'an, China </h4>
-                        <h5 className="clearfix w-75">
-                            <span className="float-left">IT Department, Tarena.inc</span>
-                            <span className="float-right">Sep 2017 – Aug 2018</span>
-                        </h5>
-                        <p className="w-75 mt-3">
-                            - Full time Software developer, promoted to work directly under the CTO as head of IT department<br />
-                            - Backend (Python/Node.js/MongoDB/AWS)+ frontend (React.js/Jekyll) developer<br />
-                            - Designing, developing and mataining company used softwares and websites<br />
-                            - Coordinating with head of each department to design and develop a customer relationship management system<br />
-                            - Setting up and maintaining company's internal network, including development of a network traffic monitor system and identity authentication system<br />
-                            - Recruitting, training and coordinating programming interns through team projects<br />
-                        </p>
-
-                        <h4 className="mt-4"> Full Stack Intern, Xi’an, China </h4>
-                        <h5 className="clearfix w-75">
-                            <span className="float-left">Research and Prototype Department, Xi’an Tarena.Inc</span>
-                            <span className="float-right">April 2017 – Aug 2017</span>
-                        </h5> 
-
-                        <p className="w-75 mt-3">
-                            - Full stack intern focusing on website and mobile development<br />
-                            - Leading teams in developing commercial websites using Hadoop distributive computing for back-end data process<br />
-                            - Communicating with on-site clients for website design requirements and wrote extensive documents to manage project development<br />
-                            - Obtained 'outstanding intern' award during internship<br />
-
-
-                        </p>
                     </div>
 
                 </div>
