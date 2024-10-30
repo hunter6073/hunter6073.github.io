@@ -55,11 +55,9 @@ class main_body extends React.Component {
                                             This is Ted, <br />
                                             your friendly neighborhood IT guy!<br />
                                             <br />
-                                            <!--
                                             <a href="https://drive.google.com/file/d/1n7wSUJb4LeSACuFFwC2Rhopbp8PpWEXv/view?usp=sharing" target="blank">Click me for a resume!</a><br />
                                             <a href="https://github.com/hunter6073/" target="blank">Ted's github</a><br />
                                             <a href="https://www.linkedin.com/in/hw-tedwong/" target="blank">To Linkedin!</a>
-                                            -->
                                         </p>
                                     </div>
                                 </div>
