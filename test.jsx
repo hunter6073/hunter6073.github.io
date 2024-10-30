@@ -113,9 +113,12 @@ class main_body extends React.Component {
                         </h5>
                         <p className="w-75 mt-3">
                            - Individually developed broadcasting systems for mobile games such as enter-game popups, slideshow notifications and posters in event centers.<br/>
-                             These broadcast ads have received over a hundred million views and have been stable online with a healthy rate over 99.9999%<br/>
+                             &nbsp;&nbsp;These broadcast ads have received over a hundred million views and have been stable online with a healthy rate over 99.9999%<br/>
                            - Collaborated with tiktok in an ad campagin for arena breakout mobile. The project has been stable online since december 2023<br/>
-                            -- TODO: keep filling
+                           - In charge of Arena breakout's in-game livestream system development. Developed the entire project individually, including the server-end structres,<br/>
+                             &nbsp;&nbsp;client side interactions, health-monitoring. And also related events such as a series of prized quiz over the winner of a certain competition
+                           - Performed lots of experimental work on new technology trend and provide statistic report to determine if they should be focused on in the future
+                             
                         </p>
                         
                         <h4 className="mt-4"> Big Data Instructor, New York, United States </h4>
@@ -166,10 +169,10 @@ class main_body extends React.Component {
                             <div className="col-sm-6">
                                 <h6>Programming Languages:</h6>
                                 <p>
-                                    <span className="badge badge-primary ml-2">Java</span>
-                                    <span className="badge badge-primary ml-2">Python</span>
-                                    <span className="badge badge-primary ml-2">R</span>
+                                    <span className="badge badge-primary ml-2">PHP</span>
+                                    <span className="badge badge-primary ml-2">GOlang</span>
                                     <span className="badge badge-primary ml-2">C/C++</span>
+                                    <span className="badge badge-primary ml-2">Python</span>
                                     <span className="badge badge-primary ml-2">C#/.Net</span>
                                     <span className="badge badge-primary ml-2">Linux Shell</span>
                                     <span className="badge badge-primary ml-2">Android</span>
@@ -177,21 +180,13 @@ class main_body extends React.Component {
                                 </p>
                             </div>
 
-
                             <div className="col-sm-6">
                                 <h6>Front End:</h6>
                                 <p>
-                                    <span className="badge badge-primary ml-2">React</span>
-                                    <span className="badge badge-primary ml-2">Jsp</span>
-                                    <span className="badge badge-primary ml-2">Ruby/Jekyll</span>
                                     <span className="badge badge-primary ml-2">Html/Dom/JavaScript</span>
                                     <span className="badge badge-primary ml-2">Bootstrap/CSS</span>
-                                    <span className="badge badge-primary ml-2">Webpack</span>
-                                    <span className="badge badge-primary ml-2">Material UI</span>
                                 </p>
                             </div>
-
-
 
                             <div className="col-sm-6">
                                 <h6>Back End:</h6>
@@ -208,40 +203,23 @@ class main_body extends React.Component {
 
                             </div>
 
-
                             <div className="col-sm-6">
                                 <h6>Big Data Analysis:</h6>
                                 <p>
                                     <span className="badge badge-primary ml-2">Hadoop</span>
                                     <span className="badge badge-primary ml-2">Spark</span>
                                     <span className="badge badge-primary ml-2">MongoDB</span>
-                                    <span className="badge badge-primary ml-2">Impala</span>
+                                    <span className="badge badge-primary ml-2">Kafka</span>
                                     <span className="badge badge-primary ml-2">Hive</span>
                                     <span className="badge badge-primary ml-2">Storm</span>
                                 </p>
                             </div>
 
-
                             <div className="col-sm-6">
-                                <h6>Computer Networking:</h6>
-                                <p>
-                                    <span className="badge badge-primary ml-2">C/S structure</span>
-                                    <span className="badge badge-primary ml-2">Frrouting</span>
-                                    <span className="badge badge-primary ml-2">TCP/IP programming</span>
-                                    <span className="badge badge-primary ml-2">LAN setup</span>
-                                    <span className="badge badge-primary ml-2">DNS</span>
-                                </p>
-
-                            </div>
-
-
-                            <div className="col-sm-6">
-
                                 <h6>Game Design and Development:</h6>
                                 <p>
-                                    <span className="badge badge-primary ml-2">OpenGL</span>
-                                    <span className="badge badge-primary ml-2">Unreal</span>
-                                    <span className="badge badge-primary ml-2">Unity</span>
+                                    <span className="badge badge-primary ml-2">unity</span>
+                                    <span className="badge badge-primary ml-2">Unreal4</span>
                                     <span className="badge badge-primary ml-2">3ds Max</span>
                                     <span className="badge badge-primary ml-2">Maya</span>
                                 </p>
