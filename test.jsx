@@ -250,7 +250,7 @@ class main_body extends React.Component {
                             </div>
                         </a>
 
-                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                        <a href="./assets/Slideshow.png" target="_blank" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
                                 <div className="col-sm-6 pl-0"><img src="./assets/Slideshow.png" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
@@ -262,7 +262,7 @@ class main_body extends React.Component {
                             </div>
                         </a>
 
-                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                        <a href="./assets/Poster.jpg" target="_blank" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
                                 <div className="col-sm-6 pl-0"><img src="./assets/Poster.jpg" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
@@ -274,7 +274,7 @@ class main_body extends React.Component {
                             </div>
                         </a>
 
-                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                        <a href="./assets/OfficialAbiSite.png" target="_blank" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
                                 <div className="col-sm-6 pl-0"><img src="./assets/OfficialAbiSite.png" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
@@ -287,7 +287,7 @@ class main_body extends React.Component {
                             </div>
                         </a>
 
-                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                        <a href="./assets/MiniApp.jpg" target="_blank" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
                                 <div className="col-sm-6 pl-0"><img src="./assets/MiniApp.jpg" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
@@ -300,7 +300,7 @@ class main_body extends React.Component {
                             </div>
                         </a>
 
-                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                        <a href="./assets/NarutoAnimeGiveAway.png" target="_blank" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
                                 <div className="col-sm-6 pl-0"><img src="./assets/NarutoAnimeGiveAway.png" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
@@ -312,7 +312,7 @@ class main_body extends React.Component {
                             </div>
                         </a>
 
-                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                        <a href="./assets/NarutoMiniApp.jpg" target="_blank" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
                                 <div className="col-sm-6 pl-0"><img src="./assets/NarutoMiniApp.jpg" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
@@ -325,7 +325,7 @@ class main_body extends React.Component {
                             </div>
                         </a>
 
-                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                        <a href="./assets/TikTokDrops.jpg" target="_blank" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
                                 <div className="col-sm-6 pl-0"><img src="./assets/TikTokDrops.jpg" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
@@ -338,7 +338,7 @@ class main_body extends React.Component {
                             </div>
                         </a>
 
-                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                        <a href="./assets/MatchGuess.png" target="_blank" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
                                 <div className="col-sm-6 pl-0"><img src="./assets/MatchGuess.png" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
@@ -351,7 +351,7 @@ class main_body extends React.Component {
                             </div>
                         </a>
 
-                        <a href="" className="mx-auto mt-4 project-display container border border-1 clearfix">
+                        <a href="./assets/LootAndShoot.png" target="_blank" className="mx-auto mt-4 project-display container border border-1 clearfix">
                             <div className="row">
                                 <div className="col-sm-6 pl-0"><img src="./assets/LootAndShoot.png" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
