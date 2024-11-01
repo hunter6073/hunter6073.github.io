@@ -238,7 +238,7 @@ class main_body extends React.Component {
                     <div className="mx-auto w-75">
                         <h1>My Projects:</h1>
 
-                        <a href="" className="mx-auto mt-5 project-display container border border-1 clearfix">
+                        <a href="./assets/OpenScreen.jpg" target="_blank" className="mx-auto mt-5 project-display container border border-1 clearfix">
                             <div className="row">
                                 <div className="col-sm-6 pl-0"><img src="./assets/OpenScreen.jpg" className="projectimg" /></div>
                                 <div className="col-sm-6 pl-0">
